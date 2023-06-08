@@ -1,6 +1,7 @@
+import javax.sound.midi.SysexMessage;
+
 public class Main {
-    public static void main(String[] args)
-    {
+    public static void main(String[] args) throws CheckPush, CheckPop {
         IntergerStack stack = new IntergerStack();
 
 
@@ -10,6 +11,6 @@ public class Main {
         }
 
         //System.out.println(stack.empty());
-
+        System.out.println(stack.pop());
     }
 }
